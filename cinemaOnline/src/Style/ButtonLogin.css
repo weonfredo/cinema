@@ -1,0 +1,10 @@
+.color{
+    -webkit-tap-highlight-color: transparent;
+    background-image: linear-gradient(to bottom right, #6BBFFB, #8591FF, #D293F2);
+    color: white;
+    position: relative;
+    text-shadow: 0px 0.5px 0.75px rgba(9, 24, 85, .25);
+    padding: 10px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.3) inset, 0px 4px 12px -3px rgba(147, 146, 253, 0.95), 0px 8px 20px 0 rgba(147, 146, 253, 0.2);
+}

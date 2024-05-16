@@ -1,0 +1,58 @@
+.login{
+    background: -webkit-linear-gradient(to bottom right, #6353ed, #bf68c6) ;
+    background: linear-gradient(to bottom right, #6353ed, #bf68c6) ;
+    height: 100vh;
+    
+    .formulario{
+        box-shadow: 10px 8px #363535;
+        max-width: 90vw;
+        min-height: 80vh;
+        color: black;
+        position: relative;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        top: 10vh;
+    }
+    .R{
+        
+        display: grid;
+        background-color: #D3C5FF;
+        grid-template-columns: 1fr 2fr;
+        align-content: center;
+        .cinema{
+            position: relative;
+            display: grid;
+            grid-template-rows: repeat(3);
+            left: 50px;
+            h1{
+                
+                font-weight: 900;
+                font-size: 3.5rem;
+                color: #eafda4;
+            }
+            button{
+                position: relative;
+                top: 15px;
+                height: 5vh;
+                border-radius: 20px;
+                background-color: #a186e3;
+                color: #eafda4;
+                
+            }
+            p{
+                color: rgb(131, 127, 127);
+            }
+        }
+    }
+    .L{
+        display:grid;
+        align-items: center ;
+        justify-items: center;
+        h1{
+            font-weight: 900;
+            font-size: 1.5rem;
+        }
+        
+    }
+}
